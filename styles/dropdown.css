@@ -1,0 +1,32 @@
+
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--color-emerald-50);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 5.6rem;
+    left: 0;
+}
+
+.dropdown-content a {
+    color: var(--color-black);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: var(--color-emerald-100);
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}

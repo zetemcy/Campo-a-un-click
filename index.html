@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Campo a un Click | Productos agricolas | Boyacá | Cundinamarca</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/index.css">
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- Banner Principal  -->
+        <div class="banner">
+            <div class="logo">
+                <img src="./assets/images/logoclick.png" alt="" width="50px" height="50px">
+            </div>
+            <span class="textobanner"> El Campo a un Click </span>
+            <!-- <div class="shopping-cart">
+                <img src="./assets/icons/shopping-cart.svg" alt="shopping-cart">
+            </div> -->
+        </div>
+        <!-- Barra de Navegacion -->
+        <nav class="nav-bar">
+            <ul class="nav-bar__ul">
+                <li> <a href="index.html">Inicio</a></li>
+                <li> <a href="#products">Productos</a></li>
+                <li> <a href="#ofertas">Ofertas</a></li>
+                <li class="dropdown">
+                    <a>Regiones</a>
+                    <div class="dropdown-content">
+                    <a href="#mapa-boyaca">Boyacá</a>
+                    <a href="#mapa-cundinamarca">Cundinamarca</a>
+                    </div>
+                    </li>
+                <li> <a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--                     ____          -->
+    <!--                 ___|=*==|___      -->
+    <!-- EL TODOO PODEROSO  |-¡¬ |         -->
+    <!--                    \ - /|         -->
+    <!--                 +--\´`´ /--+¬     -->
+    <!--                 |   \ /    ||     -->
+    <!--                 |    \     ||     -->
+    <main class="main">
+        <!-- Carrusel interactivo  -->
+        <div class="carousel">
+            <div class="slide">
+                <div class="item" style="background-image: url('./assets/images/image-01.jpg');">
+                    <div class="content">
+                        <div class="name">Sibate</div>
+                        <div class="des">La capital de la papa</div>
+                        <button>Ver más</button>
+                    </div>
+                </div>
+                <div class="item"
+                    style="background-image: url(https://images.pexels.com/photos/13537914/pexels-photo-13537914.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);">
+                    <div class="content">
+                        <div class="name">Boyaca</div>
+                        <div class="des">Conoce la cuna agricola!</div>
+                        <button>Ver más</button>
+                    </div>
+                </div>
+                <div class="item"
+                    style="background-image: url(https://images.pexels.com/photos/3963167/pexels-photo-3963167.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);">
+                    <div class="content">
+                        <div class="name">Pacho</div>
+                        <div class="des">Se obtienen los mejores platanos!</div>
+                        <button>Ver más</button>
+                    </div>
+                </div>
+                <div class="item"
+                    style="background-image: url(https://images.pexels.com/photos/13806412/pexels-photo-13806412.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);">
+                    <div class="content">
+                        <div class="name">Aquitania</div>
+                        <div class="des">Se Cultivan las mejores cebollas!</div>
+                        <button>Ver más</button>
+                    </div>
+                </div>
+                <div class="item"
+                    style="background-image: url(https://images.pexels.com/photos/20102609/pexels-photo-20102609/free-photo-of-paisaje-bosque-arboles-campo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);">
+                    <div class="content">
+                        <div class="name">Junin</div>
+                        <div class="des">La meca del maiz!</div>
+                        <button>Ver más</button>
+                    </div>
+                </div>
+                <div class="item"
+                    style="background-image: url(https://images.pexels.com/photos/20093647/pexels-photo-20093647/free-photo-of-naturaleza-puesta-de-sol-campo-rural.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);">
+                    <div class="content">
+                        <div class="name">Cundinamarca</div>
+                        <div class="des">Capital de los mejores Productos agricolas!</div>
+                        <button>Ver más</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="button">
+                <button class="prev">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button class="next">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    
+        <!-- Area de Productos -->
+        <section id="products">
+            <div class="titulos">Productos</div>
+            <div id="cambio"></div>
+        </section>
+        
+        <!-- mapa svg boyaca  -->
+        <section class="mapa" id="mapa-boyaca">
+            <div class="mapa__info">
+                <h2 class="mapa__title">Departamento de Boyacá</h2>
+                <p class="mapa__description">Cultivos permanentes: <br>· caña panelera que representa el 36% del total, 
+                    <br>· seguido por el café (21%) 
+                    <br>· cacao (0,8%). 
+                    <br>
+                    <br>Cultivos de rendimiento:<br>· cebolla en rama y la caña miel. <br>
+                    <br>Cultivos transitorios:<br>· la papa, que para 2010 mostró un incremento importante en áreas sembradas, 
+                    <br>· El maíz tradicional (11%),
+                    <br>· El fríjol y la cebolla de bulbo (0,5%). <br>
+                    <br> Cultivos anuales: 
+                    <br>· la yuca es el cultivo representativo.</p>
+            </div>
+            <button type="button"class="mapboton" id="botonMap" onclick="mostrar()"><span>_Mapa_</span></button>
+            <br>
+            <div class="map" id="ocl">
+                <div class="close" onclick="ocultar()"> X </div>
+                <iframe class="ifr" scrolling="no" src="./assets/mapa-Boyaca-svg.html" frameborder="1" allowfullscreen ></iframe>
+                <!-- <a href="#openModal">Lanzar el modal</a>
+                <div id="openModal" class="modalDialog">
+	            <div>
+		        <a href="#close" title="Close" class="close">X</a>
+		        <h2>Boyacá</h2>
+	        </div>
+            </div> -->
+            </div>
+        </section>
+
+        <!-- mapa de cundinamarca -->
+        <section class="mapa" id="mapa-cundinamarca">
+            <div class="mapa__info">
+                <h2 class="mapa__title">Departamento de Cundinamarca</h2>
+                <p class="mapa__description">Los recursos naturales más sobresalientes del departamento de Cundinamarca
+                    son el carbón (una parte de este recurso natural es explotado de manera ilegal​) y la sal,
+                    principalmente en Zipaquirá, Nemocón y Tausa. También se cuenta con cal, hierro, azufre, esmeraldas,
+                    cuarzo, plomo yeso, cobre y mármol. Los principales productos agrícolas son café, maíz, caña de
+                    azúcar, papa, cebada, trigo, yuca, algodón, arroz, frijol y frutas, el departamento es el primer
+                    productor de caña panelera del país. La industria lechera se encuentra muy desarrollada
+                    especialmente en la Sabana de Bogotá y en el valle de Ubaté. En la ciudad capital y sus alrededores,
+                    se encuentra uno de los sectores más industrializados del país con industrias metalúrgicas,
+                    farmacéutica, textil y grandes cultivos de flores de exportación. Algunas zonas sufren de alta
+                    contaminación ambiental como es el caso de las riberas del río Bogotá y aquellas de alta
+                    concentración industrial, como Soacha, Bosa y Zipaquirá.</p>
+            </div>
+            <button class="mapboton" type="button" onclick="mostrar2()"><span>_Mapa_</span></button>
+            <Br>
+            <div class="map" id="ocl2">
+                <div class="close" onclick="ocultar2()"> X </div>
+                <iframe class="ifr2" scrolling="no" src="assets/mapa-cund-svg.html" frameborder="1"></iframe>
+            </div>
+        </section> 
+    </main>
+
+    <footer>
+        Todos los derechos reservados - &copy; 2024
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

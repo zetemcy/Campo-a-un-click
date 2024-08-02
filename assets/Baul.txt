@@ -1,0 +1,63 @@
+<section class="products" id="products">
+            <div class="product">
+                <img class="product__image" src="./assets/images/image-01.jpg" alt="">
+                <h2 class="product__title">Productos de Sibate</h2>
+                <p class="product__description">Contacatate co los mejores productores de papa se la zona</p>
+                <div>
+                    <button>Comprar</button>
+                    <button>Agregar</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img class="product__image" src="./assets/images/image-01.jpg" alt="">
+                <h2 class="product__title">Title 2</h2>
+                <p class="product__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+
+                <div>
+                    <button>Comprar</button>
+                    <button>Agregar</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img class="product__image" src="./assets/images/image-01.jpg" alt="">
+                <h2 class="product__title">Title 3</h2>
+                <p class="product__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat
+                    labore, ratione, dolore perferendis aperiam quod accusamus omnis doloribus minima eligendi sint
+                    dolores nostrum perspiciatis expedita laudantium animi quam culpa asperiores. </p>
+
+                <div>
+                    <button>Comprar</button>
+                    <button>Agregar</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img class="product__image" src="./assets/images/image-01.jpg" alt="">
+                <h2 class="product__title">Title 4</h2>
+                <p class="product__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat
+                    labore, ratione, dolore perferendis aperiam quod accusamus omnis doloribus minima eligendi sint
+                    dolores nostrum perspiciatis expedita laudantium animi quam culpa asperiores. </p>
+
+                <div>
+                    <button>Comprar</button>
+                    <button>Agregar</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img class="product__image" src="./assets/images/image-01.jpg" alt="">
+                <h2 class="product__title">Title 5</h2>
+                <p class="product__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat
+                    labore, ratione, dolore perferendis aperiam quod accusamus omnis doloribus minima eligendi sint
+                    dolores nostrum perspiciatis expedita laudantium animi quam culpa asperiores. </p>
+
+                <div>
+                    <button>Comprar</button>
+                    <button>Agregar</button>
+                </div>
+            </div>
+        </section>
+// const clone = miTemplate.content.cloneNode(true);
+    box-shadow: inset 0 0 12px 2px;
