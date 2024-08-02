@@ -89,17 +89,15 @@ for (let x = 0; x < produtos.length; x++) {
   console.log(cambio);
   console.log(cambio.innerHTML);
   cambio.innerHTML += `
-  <div class="products">
-    <div class="product">
+  <div class="product">
     <img class="product__image" src="${links[x]}" alt="">
     <h2 class="product__title">${produtos[x]}</h2>
     <p class="product__description"> ${produtos[x]}</p>
-    <div>
+    <div class="product_btn">
       <button>Comprar</button>
       <button>Agregar</button>
     </div>
-    </div>
-  </div>`;
+    </div>`;
   }
   
   
